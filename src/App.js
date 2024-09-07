@@ -1,5 +1,7 @@
-import './App.css';
-import Home from './Components/Home';
+import React, { Suspense, lazy } from 'react';
+
+const Home = lazy(() => import('./routes/Home'));
+
 
 function App() {
   return (
