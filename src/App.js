@@ -1,7 +1,5 @@
-import React, { Suspense, lazy } from 'react';
-
-const Home = lazy(() => import('./routes/Home'));
-
+import './App.css';
+import Home from './Components/Home';
 
 function App() {
   return (
